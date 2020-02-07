@@ -1,0 +1,19 @@
+{
+  "name": "freecodecamp-react-full-course",
+  "version": "1.0.0",
+  "description": "freeCodeCamp - React JS Full Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YosepRA/freeCodeCamp-react-full-course.git"
+  },
+  "author": "YosepRA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YosepRA/freeCodeCamp-react-full-course/issues"
+  },
+  "homepage": "https://github.com/YosepRA/freeCodeCamp-react-full-course#readme"
+}

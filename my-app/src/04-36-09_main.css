@@ -1,0 +1,131 @@
+.page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  height: 100px;
+  background: rgb(255, 123, 0);
+  background: linear-gradient(
+    139deg,
+    rgba(255, 123, 0, 1) 0%,
+    rgba(108, 52, 0, 1) 100%
+  );
+  font-family: 'Bradley Hand ITC';
+  font-size: 1.5rem;
+  color: white;
+}
+
+.page-header img {
+  height: 100%;
+  margin-right: 1rem;
+}
+
+.page-header h1 {
+  text-shadow: 1px 1px 10px black;
+}
+
+.meme-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.form {
+  width: 80%;
+  margin: 0 auto 2rem;
+}
+
+.form__group {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.form__group label {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.form__group input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: inherit;
+}
+
+.form__submit {
+  display: block;
+  width: 140px;
+  margin: auto;
+  padding: 1rem;
+  background-color: #ff7b00;
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 0 0 1px black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form__submit:hover {
+  background-color: #bb5a00;
+}
+
+.form__submit:active {
+  background-color: #a04d00;
+}
+
+.result {
+  position: relative;
+  width: 500px;
+}
+
+.result__top-text,
+.result__bottom-text {
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-family: Impact;
+  font-size: 2.5rem;
+  text-align: center;
+  z-index: 1;
+}
+
+.result__top-text {
+  top: 10px;
+}
+
+.result__bottom-text {
+  bottom: 10px;
+}
+
+.result__image {
+  position: relative;
+  width: 100%;
+}
+
+.result__image img {
+  width: 100%;
+}
+
+.result__loading-screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(200, 200, 200, 0.8);
+}
+
+.result__loading-screen::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: Impact;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
+  content: 'Loading...';
+}

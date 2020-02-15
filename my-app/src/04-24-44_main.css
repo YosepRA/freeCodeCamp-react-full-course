@@ -1,0 +1,79 @@
+.page-content {
+  width: 80%;
+  margin: auto;
+  padding: 3rem 4rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.page-content > div {
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__group {
+  width: 80%;
+  margin: 0 0 0.5rem;
+}
+
+.form__group:last-of-type {
+  margin-bottom: 1rem;
+}
+
+input[type='text'],
+input[type='number'] {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.form__group--gender label {
+  margin: 0 0.5rem;
+}
+
+.form__group--extra-packages {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__submit {
+  display: block;
+  width: 80%;
+  color: white;
+  font-size: 1rem;
+  padding: 0.7rem 0;
+  cursor: pointer;
+  background-color: #61dbfb;
+  border: none;
+  border-radius: 3px;
+}
+
+.form__submit:hover {
+  background-color: #5eceeb;
+}
+
+.form__submit:active {
+  background-color: #58bcd4;
+}
+
+.result__header {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.result__content p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.result__text {
+  width: 65%;
+  font-weight: bold;
+}

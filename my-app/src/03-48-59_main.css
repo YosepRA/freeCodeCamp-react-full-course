@@ -1,0 +1,15 @@
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  font-size: 1.3rem;
+  font-family: inherit;
+}

@@ -1,0 +1,20 @@
+#root div > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  font-size: 2.3rem;
+}
+
+.main {
+  width: 100%;
+  height: 100px;
+  color: white;
+  background-color: black;
+  line-height: 100px;
+}
+
+.footer {
+  font-size: 1rem;
+  text-align: center;
+}

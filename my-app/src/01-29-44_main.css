@@ -1,0 +1,22 @@
+.container {
+  width: 40%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+
+.jokes {
+  margin-bottom: 1rem;
+}
+
+.jokes__question,
+.jokes__answer {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+}
+
+.title {
+  font-weight: bold;
+}

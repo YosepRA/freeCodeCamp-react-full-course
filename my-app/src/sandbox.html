@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Event Property</title>
+  </head>
+  <body>
+    <button>Click me</button>
+
+    <script>
+      const button = document.querySelector('button');
+
+      // button.onclick = function() {
+      //   console.log(`The context of anonymous function in element event property is: ${this}`);
+      // };
+
+      // button.onclick = handleClick;
+
+      function handleClick() {
+        console.log(`The context of function declaration is: ${this}`);
+      }
+
+      // ======================================================================================================== //
+
+      // button.addEventListener('click', function() {
+      //   console.log(
+      //     `The context of anonymous function in addEventListener is: ${this}`
+      //   );
+      // });
+      // button.addEventListener('click', () => {
+      //   console.log(
+      //     `The context of anonymous function in addEventListener is: ${this}`
+      //   );
+      // });
+
+      button.addEventListener('click', handleClick);
+    </script>
+  </body>
+</html>
